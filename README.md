@@ -1,9 +1,9 @@
-# Reading Time Plugin for [Rawilum](http://rawilum.org/)
-![version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg?style=flat-square "Version")
-![Rawilum](https://img.shields.io/badge/Rawilum-0.x-green.svg?style=flat-square "Rawilum Version")
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/rawilum-plugins/redirect/blob/master/LICENSE.txt)
+# Reading Time Plugin for [Flextype](http://flextype.org/)
+![version](https://img.shields.io/badge/version-1.0.1-brightgreen.svg?style=flat-square "Version")
+![Flextype](https://img.shields.io/badge/Flextype-0.x-green.svg?style=flat-square "Flextype Version")
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/flextype-plugins/reading-time/blob/master/LICENSE.txt)
 
-Estimated reading time plugin for Rawilum
+Estimated reading time plugin for Flextype
 
 ## Installation
 1. Unzip plugin to the folder `/site/plugins/`
@@ -22,13 +22,13 @@ plugins:
 Simple usage  
 
 ```
-<?php echo readingTime($page['content']); ?>
+<?php echo Flextype\readingTime($page['content']); ?>
 ```
 
 Localization  
 
 ```
-<?php echo readingTime($page['content'], [
+<?php echo Flextype\readingTime($page['content'], [
     'minute'  => 'Minute',
     'minutes' => 'Minutes',
     'second'  => 'Second',
@@ -39,7 +39,7 @@ Localization
 Set custom format of the result   
 
 ```
-<?php echo readingTime($page['content'], [
+<?php echo Flextype\readingTime($page['content'], [
     'minute'  => 'Minute',
     'minutes' => 'Minutes',
     'second'  => 'Second',
@@ -51,7 +51,7 @@ Set custom format of the result
 Enable alternative format that hides the minute label.
 
 ```
-<?php echo readingTime($page['content'], [
+<?php echo Flextype\readingTime($page['content'], [
     'format' => '{minutes_count} {minutes_label}, {seconds_count} {seconds_label}',
     'format.alt' => '{seconds_count} {seconds_label}',
     'format.alt.enable' => true]);
@@ -59,4 +59,4 @@ Enable alternative format that hides the minute label.
 ```
 
 ## License
-See [LICENSE](https://github.com/fansoro/fansoro-plugin-reading-time/blob/master/LICENSE)
+See [LICENSE](https://github.com/flextype-plugins/reading-time/blob/master/LICENSE)

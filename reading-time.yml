@@ -1,12 +1,12 @@
 name: Reading Time
-version: 1.0.0
-description: "Estimated reading time plugin for Rawilum"
+version: 1.0.1
+description: "Estimated reading time plugin for Flextype"
 author:
   name: Sergey Romanenko
   email: awilum@yandex.ru
-  url: http://rawilum.org
-homepage: https://github.com/rawilum-plugins/reading-time
-bugs: https://github.com/rawilum-plugins/reading-time/issues
+  url: http://flextype.org
+homepage: https://github.com/flextype-plugins/reading-time
+bugs: https://github.com/flextype-plugins/reading-time/issues
 license: MIT
 
 # Plugin settings
