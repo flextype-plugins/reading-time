@@ -51,5 +51,5 @@ namespace Flextype\Plugin\ReadingTime {
      }
 
     // Twig: {{ readingTime() }}
-    flextype('twig')->addFunction(new TwigFunction('readingTime', fn (string $content, array $options = []) => readingTime($content, $options)));
+    twig()->addFunction(new TwigFunction('readingTime', fn (string $content, array $options = []) => readingTime($content, $options)));
 }
