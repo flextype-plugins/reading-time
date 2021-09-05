@@ -7,7 +7,7 @@ author:
   url: https://flextype.org
 icon:
   name: clock
-  solid: fontawesome|solid
+  set: bootstrap
 homepage: https://github.com/flextype-plugins/reading-time
 bugs: https://github.com/flextype-plugins/reading-time/issues
 license: MIT
